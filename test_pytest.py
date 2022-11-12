@@ -26,7 +26,7 @@ def test_login():
     psw.send_keys("admin123")
     time.sleep(0.5)
     driver.find_element(By.XPATH, "/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button").click()
-    time.sleep(4)
+    time.sleep(5)
 
 def test_title():
     act_title = driver.title
