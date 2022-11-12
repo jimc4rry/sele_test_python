@@ -48,7 +48,7 @@ def test_teardown():
     driver.close()
     driver.quit()
 
-#pytest -v -s --html=report.html pytest_test.py
+#pytest -v -s --html=report.html test_pytest.py
 
 #git remote add origin https://github.com/jimc4rry/selenium_test.git
 #git branch -M main
